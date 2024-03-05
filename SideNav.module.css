@@ -1,0 +1,136 @@
+.nav{
+    background-color: #112351;
+    color: whitesmoke;
+    height: 100%;
+    position: fixed;
+    width: 17vw;
+    z-index: 1300;
+}
+.navPhone{
+    width: auto;
+}
+.selectFloorZone{
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.floor{
+    border-left: 1px solid whitesmoke;
+}
+.floorPlanText{
+    cursor: pointer;
+}
+.selectFloor{
+    border: none;
+    cursor: pointer;
+}
+.normal{
+    .category{
+        margin-left: 2vw;
+        margin-top: 2vh;
+        font-size: 0.8vw;
+        cursor: pointer;
+        text-decoration: none;
+        color: aliceblue;
+    } 
+    .topic{
+        margin-left: 2vw;
+        margin-top: 2vh;
+        font-size: 0.7vw;
+        color: gray;
+    }
+    .searchBox {
+        margin-left: 2vw;
+        margin-top: 0vh;
+        width: 12vw;
+        height: 4vh;
+        font-size: medium;
+        padding-left: 1vw;
+        font-family: 'Prompt', sans-serif;
+        border-radius: 7px;
+    }
+    .selected{
+        color:lightskyblue;
+    }
+    .unselected{
+        color:white;
+    }
+}
+
+.touch{/* Touch Screen TV*/
+    .touchTopic{
+        color: #212121;
+        font-weight: bolder;
+    }
+    .searchBox{
+        /* color: #212121; */
+        width: 90%;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .category{
+        color: #212121;
+        cursor: pointer;
+        font-size: 2vw;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    .selected{
+        color:#5479ff;
+    }
+    .unselected{
+        color: black;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .nav{
+        width: 25vw;
+    }
+    .category{
+        font-size: 1.3vw;
+    }
+    .searchBox{
+        width: 80%;
+    }
+    .normal{
+        .category{
+            font-size: 1.3vw;
+        }
+        .topic{
+            font-size: 1.1vw;
+        } 
+        .searchBox {
+            width: 20vw;
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+    .navPhone{
+        width: 50vw;
+        .searchBox{
+            width: 90%;
+        }
+        .topic{
+            font-size: 2vw;
+        }
+        .category{
+            font-size: 3vw;
+        }
+        
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .navPhone{
+        width: 50vw;
+        .topic{
+            font-size: 3vw;
+        }
+        .category{
+            font-size: 3vw;
+        }
+    }
+
+}

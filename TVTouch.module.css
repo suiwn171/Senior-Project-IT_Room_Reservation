@@ -1,0 +1,30 @@
+.nav{
+    height: 6vh;
+    width: 100%;
+    background-color: #112351;
+    /* position: fixed; */
+}
+.navTime{
+    float: right;
+    margin-right: 2vw;
+    /* margin-top: 5px; */
+    font-size: 7vw;
+    color: white;
+    font-weight: 900;
+}
+.floor{
+    margin-left: 3vw;
+    margin-top: 5vw;
+}
+.changeFloorBtn{
+    position: absolute;
+    left: 30%;
+    top: 7.5%;
+    z-index: 2;
+}
+.finding{
+    /* background-color: aquamarine; */
+    z-index: 3;
+    position: absolute;
+    right: 5vw;
+}

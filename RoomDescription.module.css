@@ -1,0 +1,53 @@
+.contain{
+    overflow-y: auto;
+    margin: 1vw;
+}
+.activity{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.touchContain{
+    overflow-y: auto;
+    margin: 1vw;
+}
+.touchActivity{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.contain{
+    .roomName{
+        display: flex;
+        align-items: center;
+        font-size: 2.8vw;
+    }
+}
+.touchContain{
+    .roomName{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .contain{
+        .roomName p{
+            font-size: 6vw;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .contain{
+        .roomName p{
+            font-size: 6vw;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
